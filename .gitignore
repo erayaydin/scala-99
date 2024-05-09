@@ -1,0 +1,15 @@
+### SBT
+dist/
+target/
+project/local-plugins.sbt
+
+### Bloop
+.bsp/
+
+### Metals
+.bloop/
+.metals/
+metals.sbt
+
+### IDEA
+.idea/
