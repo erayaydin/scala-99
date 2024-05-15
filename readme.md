@@ -173,6 +173,13 @@ scala> lotto(6, 49)
 res0: List[Int] = List(23, 1, 17, 33, 21, 37)
 ```
 
+## [P25: Generate a random permutation of the elements of a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P25.scala)
+
+```scala_worksheet
+scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
+res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
