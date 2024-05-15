@@ -77,6 +77,13 @@ scala> encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, '
 res0: List[Any] = List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
 ```
 
+## [P12: Decode a run-length encoded list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P12.scala)
+
+```scala_worksheet
+scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
