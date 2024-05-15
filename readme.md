@@ -166,6 +166,13 @@ scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
 res0: List[Symbol] = List('e, 'd, 'a)
 ```
 
+## [P24: Lotto: Draw N different random numbers from the set 1..M.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P24.scala)
+
+```scala_worksheet
+scala> lotto(6, 49)
+res0: List[Int] = List(23, 1, 17, 33, 21, 37)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
