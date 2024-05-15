@@ -105,6 +105,13 @@ scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
 res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
 ```
 
+## [P16: Drop every Nth element from a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P16.scala)
+
+```scala_worksheet
+scala> drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
