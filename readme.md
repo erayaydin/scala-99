@@ -180,6 +180,13 @@ scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
 res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
 ```
 
+## [P26: Generate the combinations of K distinct objects chosen from the N elements of a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P26.scala)
+
+```scala_worksheet
+scala> combinations(3, List('a, 'b, 'c, 'd, 'e, 'f))
+res0: List[List[Symbol]] = List(List('a, 'b, 'c), List('a, 'b, 'd), List('a, 'b, 'e), ...
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
