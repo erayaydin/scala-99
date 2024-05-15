@@ -119,6 +119,13 @@ scala> split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 ```
 
+## [P18: Extract a slice from a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P18.scala)
+
+```scala_worksheet
+scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('d, 'e, 'f, 'g)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
