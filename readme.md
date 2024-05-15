@@ -187,6 +187,18 @@ scala> combinations(3, List('a, 'b, 'c, 'd, 'e, 'f))
 res0: List[List[Symbol]] = List(List('a, 'b, 'c), List('a, 'b, 'd), List('a, 'b, 'e), ...
 ```
 
+## [P27: Group the elements of a set into disjoint subsets.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P27.scala)
+
+```scala_worksheet
+scala> group3(List("Aldo", "Beat", "Carla", "David", "Evi", "Flip", "Gary", "Hugo", "Ida"))
+res0: List[List[List[String]]] = List(List(List(Aldo, Beat), List(Carla, David, Evi), List(Flip, Gary, Hugo, Ida)), ...
+```
+
+```scala_worksheet
+scala> group(List(2, 2, 5), List("Aldo", "Beat", "Carla", "David", "Evi", "Flip", "Gary", "Hugo", "Ida"))
+res0: List[List[List[String]]] = List(List(List(Aldo, Beat), List(Carla, David), List(Evi, Flip, Gary, Hugo, Ida)), ...
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
