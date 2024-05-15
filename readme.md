@@ -112,6 +112,13 @@ scala> drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
 ```
 
+## [P17: Split a list into two parts.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P17.scala)
+
+```scala_worksheet
+scala> split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
