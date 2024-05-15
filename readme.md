@@ -138,6 +138,13 @@ scala> rotate(-2, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res0: List[Symbol] = List('j, 'k, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i)
 ```
 
+## [P20: Remove the Kth element from a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P20.scala)
+
+```scala_worksheet
+scala> removeAt(1, List('a, 'b, 'c, 'd))
+res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
