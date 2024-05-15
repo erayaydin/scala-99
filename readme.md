@@ -98,6 +98,13 @@ scala> duplicate(List('a, 'b, 'c, 'c, 'd))
 res0: List[Symbol] = List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
 ```
 
+## [P15: Duplicate the elements of a list a given number of times.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P15.scala)
+
+```scala_worksheet
+scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
