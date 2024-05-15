@@ -159,6 +159,13 @@ scala> range(4, 9)
 res0: List[Int] = List(4, 5, 6, 7, 8, 9)
 ```
 
+## [P23: Extract a given number of randomly selected elements from a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P23.scala)
+
+```scala_worksheet
+scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+res0: List[Symbol] = List('e, 'd, 'a)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
