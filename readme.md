@@ -145,6 +145,13 @@ scala> removeAt(1, List('a, 'b, 'c, 'd))
 res0: (List[Symbol], Symbol) = (List('a, 'c, 'd),'b)
 ```
 
+## [P21: Insert an element at a given position into a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P21.scala)
+
+```scala_worksheet
+scala> insertAt('new, 1, List('a, 'b, 'c, 'd))
+res0: List[Symbol] = List('a, 'new, 'b, 'c, 'd)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
