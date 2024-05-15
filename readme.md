@@ -126,6 +126,18 @@ scala> slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 res0: List[Symbol] = List('d, 'e, 'f, 'g)
 ```
 
+## [P19: Rotate a list N places to the left.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P19.scala)
+
+```scala_worksheet
+scala> rotate(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c)
+```
+
+```scala_worksheet
+scala> rotate(-2, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('j, 'k, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
