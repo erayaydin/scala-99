@@ -33,4 +33,7 @@ object P16 {
 
   def drop[A](n: Int, list: List[A]): List[A] =
     list.zipWithIndex.filter(x => (x._2 + 1) % n != 0).map(_._1)
+
+  def dropGrouped[A](n: Int, list: List[A]): List[A] =
+    list.grouped(n).flatMap(_.take(n - 1)).toList
 }

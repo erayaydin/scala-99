@@ -19,4 +19,8 @@ class P16Test extends munit.FunSuite {
   test("drop with functional way") {
     assertEquals(drop(3, list), expected)
   }
+
+  test("drop with grouped") {
+    assertEquals(dropGrouped(3, list), expected)
+  }
 }
