@@ -152,6 +152,13 @@ scala> insertAt('new, 1, List('a, 'b, 'c, 'd))
 res0: List[Symbol] = List('a, 'new, 'b, 'c, 'd)
 ```
 
+## [P22: Create a list containing all integers within a given range.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P22.scala)
+
+```scala_worksheet
+scala> range(4, 9)
+res0: List[Int] = List(4, 5, 6, 7, 8, 9)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
