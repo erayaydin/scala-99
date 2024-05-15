@@ -19,4 +19,8 @@ class P11Test extends munit.FunSuite {
   test("Encode modified test") {
     assertEquals(encodeModified(list), expected)
   }
+
+  test("Encode modified test with only pack") {
+    assertEquals(encodeModifiedWithPack(list), expected)
+  }
 }

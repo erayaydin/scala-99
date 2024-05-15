@@ -1,6 +1,7 @@
 package in.yayd.era.s99
 
 import P10.encode
+import P09.pack
 
 /** Modified run-length encoding.
   *
@@ -16,5 +17,12 @@ object P11 {
         case (1, elem) => Left(elem)
         case tuple     => Right(tuple)
       }
+  }
+
+  def encodeModifiedWithPack[A](list: List[A]): List[Either[A, (Int, A)]] = {
+    pack(list).map {
+      case e if e.length == 1 => Left(e.head)
+      case e                  => Right((e.length, e.head))
+    }
   }
 }
