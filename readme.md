@@ -91,6 +91,13 @@ scala> encodeDirect(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
 res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 ```
 
+## [P14: Duplicate the elements of a list.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P14.scala)
+
+```scala_worksheet
+scala> duplicate(List('a, 'b, 'c, 'c, 'd))
+res0: List[Symbol] = List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
