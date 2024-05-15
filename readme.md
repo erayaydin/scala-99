@@ -70,6 +70,13 @@ scala> encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
 res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
 ```
 
+## [P11: Modified run-length encoding.](https://github.com/erayaydin/scala-99/blob/main/src/main/scala/P11.scala)
+
+```scala_worksheet
+scala> encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+res0: List[Any] = List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
+```
+
 ---
 
 [Original List](https://aperiodic.net/pip/scala/s-99/)
